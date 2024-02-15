@@ -58,3 +58,8 @@ The project includes the following features:
 8. *Deployment*:
    - The system can be deployed on a local server (localhost) for development and testing purposes.
    - For production deployment, it can be hosted on cloud platforms like AWS, Azure, or Google Cloud Platform.
+
+
+
+# UI
+https://www.figma.com/file/lHfxKOftefvYAIOlCEVPHB/Share-Notes-Editor?type=design&node-id=0-1&mode=design&t=QRkDhenyl0xdo44R-0
