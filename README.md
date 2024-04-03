@@ -2,7 +2,7 @@
 
 ## Shared-Note-Editor
 
-This is a web application for sharing & editing notes with your friends. The text editor is built using the MERN stack and on top of Slate.js. The collaborative editing part is implemented using web sockets with the help of Socket.io. Authentication using bcrypt and authorization using tokens.
+This is a web application for sharing & editing notes with your friends. The text editor is built using the MERN stack with tailwind CSS. Authentication using bcrypt and authorization using tokens.
 
 ### Main Features:
 
@@ -11,26 +11,25 @@ The project includes the following features:
 + Create a new note
 + Share a note with your friends and give them read/write access 
 + Collaborate with your friends and edit notes together
-+ View users who have access to the note. 
 + Remove read/write access from the shared users
 + You can see live updation in notes
 # Setup
 + Run npm install to install the dependencies
 + Run npm run start to start a local server
-+ Launch the app at the default address http://localhost:3000/collaborative-note
++ Launch the app at the default address http://localhost:3000/signup
 
 
 
 # Architecture
 
 1. *Frontend Interface*:
-   - The provided HTML file (notes.html) serves as the frontend interface.
+   - The provided React file (index.html) serves as the frontend interface.
    - It includes features for text editing, such as input fields and buttons for saving and sharing notes.
    - JavaScript code handles user interactions and real-time updates.
 
 2. *Backend Server*:
    - *Web Server*: Hosts the backend application, handles HTTP requests from clients, and serves the frontend files.
-   - *Server-Side Logic*: Written in a backend language like Node.js, Python, or Java. This logic manages user sessions, authentication, and collaboration features.
+   - *Server-Side Logic*: Written in a backend language like Node.js. This logic manages user sessions, authentication, and collaboration features.
    - *Real-Time Communication*: Utilizes WebSockets or similar technology to facilitate real-time updates between clients and the server.
 
 3. *Multi-Threading and Synchronization*:
@@ -58,8 +57,3 @@ The project includes the following features:
 8. *Deployment*:
    - The system can be deployed on a local server (localhost) for development and testing purposes.
    - For production deployment, it can be hosted on cloud platforms like AWS, Azure, or Google Cloud Platform.
-
-
-
-# UI
-https://www.figma.com/file/lHfxKOftefvYAIOlCEVPHB/Share-Notes-Editor?type=design&node-id=0-1&mode=design&t=QRkDhenyl0xdo44R-0
